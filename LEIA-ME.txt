@@ -1,0 +1,29 @@
+IMOBICHECK MOBILE — IPHONE / IPAD
+
+1. TESTAR NO COMPUTADOR
+   Abra index.html no Chrome, Edge ou Safari. Todos os principais cadastros funcionam localmente.
+
+2. USAR COMO APP NO IPHONE/IPAD (RECOMENDADO)
+   Publique TODOS os arquivos desta pasta na RAIZ de uma hospedagem HTTPS estática.
+   Ex.: Netlify Drop / GitHub Pages (ajuste a pasta e URL) / Cloudflare Pages.
+   Acesse a URL com o Safari no iPhone ou iPad.
+   Safari > Compartilhar > Adicionar à Tela de Início > Adicionar.
+   Após a primeira visita online, o service worker permitirá iniciar o app sem internet (quando suportado).
+
+3. ARQUIVO ÚNICO
+   ImobiCheck_Mobile_iPhone_iPad.html funciona sem servidor em navegadores desktop;
+   no iPhone, o app Arquivos pode mostrar só visualização e não executar JavaScript.
+   Para uso confiável no iOS, hospedagem HTTPS e ícone na Tela de Início.
+
+4. DADOS E BACKUP
+   Imóveis, contatos, vistorias e fotos são guardados no armazenamento LOCAL do navegador.
+   Não existe conta, servidor de sincronização ou backup automático em nuvem.
+   Faça backups JSON regulares usando Compartilhar / Salvar em Arquivos ou iCloud Drive.
+   Para transferir os dados ao iPad, restaure o JSON em Configurações.
+   Fotos em excesso podem exceder o limite local; prefira registrar e exportar o laudo e fazer backup.
+   O armazenamento pode ser apagado ao limpar dados do Safari ou remover o web app.
+
+5. IMPORTANTE
+   Dados de demonstração são fictícios, removíveis no painel.
+   Assinatura gráfica não autentica identidade juridicamente.
+   PDF: abra o laudo e escolha Imprimir > Salvar em Arquivos como PDF no iOS.
